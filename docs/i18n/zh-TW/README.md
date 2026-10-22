@@ -46,20 +46,20 @@
 
 <br/>
 
-<a href="https://trendshift.io/repositories/23589" target="_blank"><img src="https://trendshift.io/api/badge/repositories/23589" alt="diegosouzapw%2FOmniRoute | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/23589" target="_blank"><img src="https://trendshift.io/api/badge/repositories/23589" alt="newgenappsa%2FOmniRoute | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 [![npm](https://img.shields.io/npm/v/omniroute?logo=npm&style=flat-square)](https://www.npmjs.com/package/omniroute)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](../../LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A522.0.0-brightgreen?style=flat-square)](../../package.json)
-[![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=social)](https://github.com/diegosouzapw/OmniRoute)
+[![Stars](https://img.shields.io/github/stars/newgenappsa/OmniRoute?style=social)](https://github.com/newgenappsa/OmniRoute)
 
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/omniroute?color=cb3837&logo=npm)](https://www.npmjs.com/package/omniroute)
 ![NPM Monthly](https://img.shields.io/npm/dm/omniroute?label=npm/month&color=cb3837&logo=npm)
-[![Docker Hub](https://img.shields.io/docker/v/diegosouzapw/omniroute?label=Docker%20Hub&logo=docker&color=2496ED)](https://hub.docker.com/r/diegosouzapw/omniroute)
-![Docker Pulls](https://img.shields.io/docker/pulls/diegosouzapw/omniroute?label=docker%20pulls&logo=docker&color=2496ED)
-![Electron Downloads](https://img.shields.io/github/downloads/diegosouzapw/omniroute/total?style=flat&label=electron%20downloads&logo=electron&color=47848F)
+[![Docker Hub](https://img.shields.io/docker/v/newgenappsa/omniroute?label=Docker%20Hub&logo=docker&color=2496ED)](https://hub.docker.com/r/newgenappsa/omniroute)
+![Docker Pulls](https://img.shields.io/docker/pulls/newgenappsa/omniroute?label=docker%20pulls&logo=docker&color=2496ED)
+![Electron Downloads](https://img.shields.io/github/downloads/newgenappsa/omniroute/total?style=flat&label=electron%20downloads&logo=electron&color=47848F)
 [![Website](https://img.shields.io/badge/Website-omniroute.online-blue?logo=google-chrome&logoColor=white)](https://omniroute.online)
 
 </div>
@@ -384,7 +384,7 @@ Result: 4 layers of fallback = zero downtime
 | 平台 | 安裝方式 | 亮點 |
 |---|---|---|
 | 📦 **npm（全域）** | `npm install -g omniroute` | 一條命令，任何作業系統 |
-| 🐳 **Docker** | `docker run … diegosouzapw/omniroute` | 多架構 **AMD64 + ARM64** |
+| 🐳 **Docker** | `docker run … newgenappsa/omniroute` | 多架構 **AMD64 + ARM64** |
 | 🖥️ **桌面（Electron）** | `npm run electron:build` | 原生視窗 + 系統匣 — **Windows / macOS / Linux** |
 | 💪 **ARM** | 原生 `arm64` | Raspberry Pi、ARM 伺服器、Apple Silicon |
 | 📱 **Android（Termux）** | `pkg install nodejs-lts && npx -y omniroute` | **在手機上**執行，24/7，無需 root |
@@ -613,7 +613,7 @@ Ollama tags:      http://localhost:20128/vscode/YOUR_KEY/api/tags
 
 ```bash
 docker run -d --name omniroute --restart unless-stopped --stop-timeout 40 \
-  -p 20128:20128 -v omniroute-data:/app/data diegosouzapw/omniroute:latest
+  -p 20128:20128 -v omniroute-data:/app/data newgenappsa/omniroute:latest
 ```
 
 **🛠️ 從原始碼建構**
@@ -693,7 +693,7 @@ podman compose --profile base up -d
 
 <div align="center">
 
-> 🎬 **製作了關於 OmniRoute 的影片？** 透過連結開啟 [issue](https://github.com/diegosouzapw/OmniRoute/issues/new) 或 [discussion](https://github.com/diegosouzapw/OmniRoute/discussions) — 我們會在此展示。
+> 🎬 **製作了關於 OmniRoute 的影片？** 透過連結開啟 [issue](https://github.com/newgenappsa/OmniRoute/issues/new) 或 [discussion](https://github.com/newgenappsa/OmniRoute/discussions) — 我們會在此展示。
 
 <br/>
 </div>
@@ -849,8 +849,8 @@ podman compose --profile base up -d
 > 💬 **與社群聊天** — Discord、Telegram 和 WhatsApp（🌍 / 🇧🇷）連結在[本 README 頂部](#-join-the-community)。
 
 - 🌍 **網站**：[omniroute.online](https://omniroute.online)
-- 🐙 **GitHub**：[github.com/diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-- 🐛 **Issue**：[回報錯誤](https://github.com/diegosouzapw/OmniRoute/issues)（請附上 `npm run system-info` 輸出）
+- 🐙 **GitHub**：[github.com/newgenappsa/OmniRoute](https://github.com/newgenappsa/OmniRoute)
+- 🐛 **Issue**：[回報錯誤](https://github.com/newgenappsa/OmniRoute/issues)（請附上 `npm run system-info` 輸出）
 - 🤝 **貢獻**：參見 [CONTRIBUTING.md](../../CONTRIBUTING.md) 或選擇 `good first issue`
 
 </div>
@@ -877,7 +877,7 @@ podman compose --profile base up -d
 - **CI/CD**：GitHub Actions（發布時自動 npm 發布 + Docker Hub）
 - **網站**：[omniroute.online](https://omniroute.online)
 - **套件**：[npmjs.com/package/omniroute](https://www.npmjs.com/package/omniroute)
-- **Docker**：[hub.docker.com/r/diegosouzapw/omniroute](https://hub.docker.com/r/diegosouzapw/omniroute)
+- **Docker**：[hub.docker.com/r/newgenappsa/omniroute](https://hub.docker.com/r/newgenappsa/omniroute)
 - **彈性**：斷路器、指數退避、反奔湧群、TLS 偽造、自動 Combo 自我修復
 
 <div align="center">
@@ -1016,7 +1016,7 @@ podman compose --profile base up -d
 
 </div>
 
-[![Contributors](https://contrib.rocks/image?repo=diegosouzapw/OmniRoute&max=100&columns=20&anon=1)](https://github.com/diegosouzapw/OmniRoute/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=newgenappsa/OmniRoute&max=100&columns=20&anon=1)](https://github.com/newgenappsa/OmniRoute/graphs/contributors)
 
 ### 如何貢獻
 
@@ -1041,11 +1041,11 @@ gh release create v3.8.2 --title "v3.8.2" --generate-notes
 
 ## 📊 Stars
 
-<a href="https://www.star-history.com/?repos=diegosouzapw%2Fomniroute&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=newgenappsa%2Fomniroute&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=diegosouzapw/omniroute&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=diegosouzapw/omniroute&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=diegosouzapw/omniroute&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=newgenappsa/omniroute&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=newgenappsa/omniroute&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=newgenappsa/omniroute&type=date&legend=top-left" />
  </picture>
 </a>
 </div>
@@ -1056,11 +1056,11 @@ gh release create v3.8.2 --title "v3.8.2" --generate-notes
 
 ## 🌍 StarMapper
 
-<a href="https://starmapper.bruniaux.com/diegosouzapw/omniroute">
+<a href="https://starmapper.bruniaux.com/newgenappsa/omniroute">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://starmapper.bruniaux.com/api/map-image/diegosouzapw/omniroute?theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://starmapper.bruniaux.com/api/map-image/diegosouzapw/omniroute?theme=light" />
-    <img alt="StarMapper" src="https://starmapper.bruniaux.com/api/map-image/diegosouzapw/omniroute" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://starmapper.bruniaux.com/api/map-image/newgenappsa/omniroute?theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://starmapper.bruniaux.com/api/map-image/newgenappsa/omniroute?theme=light" />
+    <img alt="StarMapper" src="https://starmapper.bruniaux.com/api/map-image/newgenappsa/omniroute" />
   </picture>
 </a>
 </div>
@@ -1144,8 +1144,8 @@ OmniRoute 站在巨人的肩膀上。它始於 **[9router](https://github.com/de
 OmniRoute 是免費且開源的，在公開環境中建構和維護。如果它為您節省了時間或金錢，請考慮支援其開發：
 
 - ⭐ **為倉庫加星** — 這確實有助於提高能見度
-- 💖 **[GitHub Sponsors](https://github.com/sponsors/diegosouzapw)** — 資助持續維護和新供應商
-- 🐛 **在 [Discussions](https://github.com/diegosouzapw/OmniRoute/discussions) 中回報錯誤和分享意見回饋**
+- 💖 **[GitHub Sponsors](https://github.com/sponsors/newgenappsa)** — 資助持續維護和新供應商
+- 🐛 **在 [Discussions](https://github.com/newgenappsa/OmniRoute/discussions) 中回報錯誤和分享意見回饋**
 
 ## 📄 授權
 

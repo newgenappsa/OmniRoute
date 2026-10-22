@@ -9,7 +9,7 @@ After=omniroute-redis.service
 # Use this image if your building locally
 Image=localhost/omniroute:base
 # Use this image if you are pulling from Docker Hub
-# Image=diegosouzapw/omniroute:base
+# Image=newgenappsa/omniroute:base
 
 ContainerName=omniroute
 

@@ -67,10 +67,10 @@
     "auto-fallback"
   ],
   "license": "MIT",
-  "author": "diegosouzapw",
+  "author": "NewgenApps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegosouzapw/OmniRoute"
+    "url": "https://github.com/newgenappsa/OmniRoute"
   },
   "homepage": "https://omniroute.online",
   "scripts": {

@@ -17,13 +17,13 @@ npm install -g omniroute
 ### Option B: Docker
 
 ```bash
-docker run -d --name omniroute -p 20128:20128 diegosouzapw/omniroute:latest
+docker run -d --name omniroute -p 20128:20128 newgenappsa/omniroute:latest
 ```
 
 ### Option C: From Source
 
 ```bash
-git clone https://github.com/diegosouzapw/OmniRoute.git
+git clone https://github.com/newgenappsa/OmniRoute.git
 cd OmniRoute
 npm install
 npm run dev
@@ -132,4 +132,4 @@ OmniRoute automatically skips failed providers and tries the next one. You don't
 
 - **[Troubleshooting](./TROUBLESHOOTING.md)** — Common issues and fixes
 - **[Discord](https://discord.gg/EkzRkpzKYt)** — Community support
-- **[GitHub Issues](https://github.com/diegosouzapw/OmniRoute/issues)** — Report bugs
+- **[GitHub Issues](https://github.com/newgenappsa/OmniRoute/issues)** — Report bugs
