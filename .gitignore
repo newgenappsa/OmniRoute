@@ -222,8 +222,8 @@ config/quality/quality-metrics.json
 
 # Runtime logs (diretório local, nunca versionado)
 /logs/
--home-diegosouzapw-dev-automações-bots-yt-downloader-20260504 .txt
--home-diegosouzapw-dev-automações-bots-yt-downloader-20260410 .txt
+-home-newgenappsa-dev-automações-bots-yt-downloader-20260504 .txt
+-home-newgenappsa-dev-automações-bots-yt-downloader-20260410 .txt
 docs/prompts/AGENT-OWNERSHIP-PROTOCOL.omniroute.md
 docs/prompts/AGENT-OWNERSHIP-PROTOCOL.md
 docs/prompts/AGENT-OWNERSHIP-PROTOCOL.omniroute-mim.md
